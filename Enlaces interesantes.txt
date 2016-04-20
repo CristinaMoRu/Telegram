@@ -1,0 +1,19 @@
+Ejemplos de bot: http://hipertextual.com/2015/09/bots-de-telegram
+Introducción a los bots para usuarios https://telegram.org/blog/bots-2-0
+Post sobre bots Junio 2015 https://telegram.org/blog/bot-revolution
+Post de otras webs 
+http://www.xatakamovil.com/aplicaciones/llegan-los-bots-a-telegram-como-crear-el-tuyo-propio
+http://andro4all.com/2015/10/mejores-bots-telegram
+
+Introducción a bots para desarrolladores https://core.telegram.org/bots
+
+
+Ejemplos de bot https://core.telegram.org/bots/samples
+Bot API https://core.telegram.org/bots/api
+Bot FAQ https://core.telegram.org/bots/faq
+
+Premio de 25000$
+http://hipertextual.com/2016/04/telegram-crear-bots
+https://telegram.org/blog/botprize
+
+StoreBot https://storebot.me/
