@@ -1,0 +1,50 @@
+﻿<!DOCTYPE Html>
+<html>
+<head>
+<meta charset="utf-8"/>
+</head>
+<body>
+<h1>Enlace al bot 
+<br>
+<a href="http://telegram.me/TestingESPBot">telegram.me/TestingESPBot</a></h1>
+<br>
+<img src="BotInfo.png" alt="botimg"/>
+<br>
+
+Desde casi a mediados del tercer trimestre, 
+empezamos un proyecto basado en la investigación y desarrollo 
+de un BOT de Telegram. Los primeros pasos que ejecutamos en el proyecto fueron la documentación de este
+, fué un proceso algo lento ya que no disponíamos de clases suficientes a la
+semana para satisfacer las necesidades de nuestro proyecto a tiempo.
+<p>
+Conseguimos documentarnos sobre el bot, partimos principalmente de la documentación de Telegram, pero no 
+teníamos muy claro por donde empezar. Resultó que el BOT se comunicaba mediante ordenes vía HTTP, por peticiones,
+pero no nos quedaba claro cómo programarlo usando eso. Tuvimos dificultades con los códigos ejemplo que nos
+proporcionaba la web, ya que los métodos más populares requerían un certificado SSL , usando HTTPS, pues no teníamos
+acceso a dicha tecnología en primera parte, aunque podíamos haberla investigado.
+<p>
+Elegimos el lenguaje PHP, pudiendo haber sido otro, ya que es el que estábamos estudiando en Lenguaje de Marcas,
+en ese mismo instante. Las primeras pruebas funcinales con el BOT una vez captado su funcionamiento mínimo
+ fueron las de enviar un mensaje a un destinatario conociendo su Identificador de Telegram.
+ Fueron un éxito sólo que fueron muy sencillas. Teníamos marcadas alguna páginas de referencia para conocer mejor cómo
+ la comunidad programaba los bots para Telegram pero no nos supo de mucha ayuda ya que no entendíamos para qué servía todo esoç
+ Entonces fue ahí cuando cogí el truco del método. Si puedo enviar mensajes a través de una URL vía HTTP,
+ podré tambien leerlos a través de el archivo que nos devolvía ,JSON vía HTTP. ¿Qé tal si pasamos todo esto a código?
+ En ese mismo instante tódo se volvió mucho más fácil , había entendido que lo fundamental era conocer cómo funcionaba el BOT de la API
+ de Telegram, ya que sabiendo programar ya lo alcanzas todo.
+ <p>
+ Escribí un sencillo programa que recogía la información del último mensaje enviado al bot y lo interpretaba
+ a mi gusto. Basándose en el Token , la URL de Telegram y los métodos predefinidos por ellos.
+ El programa fue un éxito, funcionó pese a ligeros problemas de código.
+ Todo esto me ha enseñado que lo más importante es aprender el funcionamiento antes que el "saber hacerlo".
+ <p>
+ La única bibliografía que puedo mostar es la página de telegram, que tampoco fue el máximo para mí a la hora de hacerlo todo.
+ El otro par de páginas contenía un largo ejemplo de código hecho por un usuario que no usé y un vídeo en YouTube
+ al que no puedo encontrar debido al mi hábito de borrar los datos de navegación diariamente
+ <p>
+ <a href="https://core.telegram.org/bots">https://core.telegram.org/bots</a>
+
+
+
+</body>
+</html>
