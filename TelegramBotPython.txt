@@ -1,4 +1,0 @@
-Tutorial en inglés sacado de Reddit/r/Telegram que nos enseña una alternativa gratis 
-al desarollo de un bot con Python usando Google.
-
-https://github.com/yukuku/telebot
