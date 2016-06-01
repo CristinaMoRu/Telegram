@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Resumen Nikoto</title>
+    
+<style>
+    body {
+        padding:20px;
+        font-family:Source Sans Pro;
+    }
+    a {
+        display:inline-block;
+        color:tomato;
+        text-decoration:none;
+    }
+    a:hover {
+        opacity:0.5;
+    }
+    p {
+        width:600px;
+        text-align:justify;
+        margin: 30px;
+        font-size:13px;
+    }
+</style>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <h2>1. Enlace al bot:</h2> <a href="https://telegram.me/NikotoBot" target="_blank">https://telegram.me/NikotoBot</a><br><br>
+    <hr>
+    
+    <h2>2. Capturas del bot:<br></h2>
+    <img src="http://image.prntscr.com/image/a95d6b9b2df240649b54ad17aaef8a40.png"><br>
+    <hr>
+    
+    <h2>3. Resumen de trabajo realizado:<br></h2>
+    
+    <p>
+Al empezar este proyecto se me ha asignado en el equipo de 'programación' por asi decirlo - estaba encargado, junto a mis compañeros Pedro y Álvaro, de investigar la API de Telegram para averiguar como interactuaba el <b>código</b> con esta plataforma cada vez más popular.<br><br>Empecé investigando como desarollar un bot en <b>Python</b>, ya que el 80% (cifra estimada por mi) de la documentación encontrada por Internet estaba destianada a este lenguaje de programación. Al final de esta explicación he adjuntado enlaces interesantes que he ido siguiendo para documentarme.
+    </p>
+    
+    <p>Después de hacer pruebas básicas con la API de Telegram usando el propio enlace del bot (y su token), me di cuenta de que necesitaba una plataforma para correr mi código y seguir con la investigación. Encontré tres de ellas interesantes, aunque la última destacó por su interfaz intuitivo y eficaz.</p>
+        <ul>
+            <li>OpenShift (<a href="https://www.openshift.com/features/index.html">https://www.openshift.com/features/index.html</a>)</li>
+            <li>Heroku (<a href="https://dashboard.heroku.com/apps">https://dashboard.heroku.com/apps</a>)</li>
+            <li>C9 (<a href="https://c9.io/">https://c9.io/</a>)</li>
+        </ul>
+    
+    <p>El problema que me he encontrado es que el tutorial de Python que he usado era antiguo y entre tanto, se han actualizado versiones de Python y ha resultado ser un tutorial anticuado. Por este motivo, me he puesto a buscar tutoriales en Php que no daban problemas a la hora de compilar y correr el código.</p>
+    
+    <p>Uno de los mayores problemas que hemos encontrado (ya no a nivel personal sino con Pedro y Juan Luis) es que la mayoría de los bots de Telegram usan un Webhook para procesar las peticiones entre usuario y máquina, y por desgracia los webhooks requieren un dominio con certificado SSL. La otra alternativa era el getUpdates, que <b>si</b> funcionó después de muchas frustraciones &amp; intentos. El código de Juan Luis, a través de bucles y comprobaciones, conseguía responder de manera manual (con un chatid introducido a mano) y el mío y de Pedro podía mandar mensajes sin bucle a través de actualizaciones F5 al chatid que quisieramos. Adjunto una captura de mi máquina ya que no me deja entrar como te he comentado por clase.
+    </p>
+    
+    <img src="http://image.prntscr.com/image/010b586947944c5baf26f06698b2941b.png">
+    
+    <ul>
+        <li>Python: <a href="http://www.forocoches.com/foro/showthread.php?t=4491359">http://www.forocoches.com/foro/showthread.php?t=4491359</a></li>
+    <li>Php: <a href="https://core.telegram.org/bots/samples/hellobot">https://core.telegram.org/bots/samples/hellobot</a></li>
+    <li>Varios: <a href="https://core.telegram.org/bots/samples">https://core.telegram.org/bots/samples</a></li>
+    </ul>
+    
+    <h2>4. Conclusión</h2>
+    <p>Ha sido un proyecto muy interesante porque la tecnología de Telegram aún es muy reciente y hemos aprendido que a la hora de programar un bot da igual el lenguaje de programación o el entorno, pero para tener un bot parecido al 80% de los que están por ahí hace falta tener servidor propio para usar Webhook.</p>
+    
+    <p>Aunque me haya tocado la parte de programación me ha gustado mucho usar el C9.io y lo más probable es que en el futuro lo vaya a usar otra vez para otros proyectos. </p>
+
+    
+    
+    
+    
+    
+</body>
+</html>
